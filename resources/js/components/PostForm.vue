@@ -23,8 +23,8 @@ export default {
     data(){
         return {
             post : {
-                name : null,
-                message : null,
+                name : '',
+                message : '',
             }
         }
     },
@@ -33,6 +33,16 @@ export default {
     },
     methods: {
         sendData(){
+            if (this.post.name.length < 2){
+                alert("Please enter your Fullname");
+                return
+            }
+
+            if (this.post.message.length < 5){
+                alert("The message must be at least 5 characters");
+                return
+            }
+
             axios.post('/api/comments',{name:this.post.name,message:this.post.message,parent_id:this.parent_id}).then((response) => {
                 if (response.data.status === 1){
                     alert("Your comment was successfully submitted.");

@@ -17,8 +17,8 @@
                     <div class="card-body">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">First Post</a></li>
+                                <li class="breadcrumb-item"><a href="">Home</a></li>
+                                <li class="breadcrumb-item"><a href="">First Post</a></li>
                                 <li class="breadcrumb-item"><a href="">Job position in Aloware Company</a></li>
                             </ol>
                         </nav>
@@ -76,33 +76,17 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="comment-section">
                     <div class="comment-section--header">
                         <div class="comment-section--title-wrap">
                             <span class="comment-section--title">Comments</span>
-                            {{--                            <span class="comment-section--number">34 comment</span>--}}
                         </div>
                         <div class="comment-section--divider"></div>
                     </div>
-
-
-
-
                     <div id="app">
                         <layout></layout>
                     </div>
-
-
-
                 </div>
-
-
-
-
-
-
-
             </div>
             <div class="col-12 col-lg-4 flex-grow-1 item-column">
                 <div class="card vt-news-card">
@@ -121,7 +105,7 @@
                                 <div class="tab-pane fade show active" id="latest" role="tabpanel" aria-labelledby="latest-tab">
                                     <ul class="news-list">
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -129,7 +113,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -137,7 +121,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -145,7 +129,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -153,7 +137,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -161,7 +145,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -169,7 +153,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -177,7 +161,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -185,7 +169,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -193,7 +177,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -201,7 +185,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -209,7 +193,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -217,7 +201,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -225,7 +209,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -233,7 +217,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -241,7 +225,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -249,7 +233,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -257,7 +241,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -265,7 +249,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -273,7 +257,7 @@
                                             </a>
                                         </li>
                                         <li class="news-item">
-                                            <a class="news" target="_blank" href="/node/1933637">
+                                            <a class="news" target="_blank" href="">
                                                 <span class="material-icons size-font text-primary">
                                                   double_arrow
                                                 </span>
@@ -286,7 +270,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </main>

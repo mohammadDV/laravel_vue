@@ -15,12 +15,12 @@ class CommentTest extends TestCase
      */
     public function test_get_all_comments_from_api()
     {
-        $response = $this->get('/api/comments')->assertStatus(200);
+        $this->get('/api/comments')->assertStatus(200);
     }
 
     public function test_store_comment()
     {
-        $response = $this->postJson('/api/comments',[
+        $this->postJson('/api/comments',[
             "name"          => "Ross",
             "message"       => "It's good!",
             "parent_id"     => 0

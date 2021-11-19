@@ -25,6 +25,7 @@ class CommentController extends Controller
         ])->get();
         return response()->json($comments);
     }
+
     public function store(StoreCommentRequest $request)
     {
         $comment = Comment::create([
