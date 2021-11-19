@@ -1,1 +1,1 @@
-Handeling comment in (Laravel,Vue.js)
+Handling comments in (Laravel,Vue.js)
