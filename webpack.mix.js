@@ -12,4 +12,9 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .styles([
+        'public/css/vazir.css',
+        'public/css/material-icons.css',
+        'public/css/splide.min.css',
+        'public/css/style.css',
+    ], 'public/css/app.css');

@@ -17,4 +17,13 @@ class CommentTest extends TestCase
     {
         $response = $this->get('/api/comments')->assertStatus(200);
     }
+
+    public function test_store_comment()
+    {
+        $response = $this->postJson('/api/comments',[
+            "name"          => "Ross",
+            "message"       => "It's good!",
+            "parent_id"     => 0
+        ])->assertStatus(200);
+    }
 }
