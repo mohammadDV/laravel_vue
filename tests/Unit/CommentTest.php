@@ -20,10 +20,12 @@ class CommentTest extends TestCase
 
     public function test_store_comment()
     {
-        $this->postJson('/api/comments',[
-            "name"          => "Ross",
+        $comment = [
+            "name"          => "Ross3",
             "message"       => "It's good!",
             "parent_id"     => 0
-        ])->assertStatus(200);
+        ];
+        $this->postJson('/api/comments',$comment)->assertStatus(200);
+        $this->assertDatabaseHas('comments', $comment);
     }
 }
