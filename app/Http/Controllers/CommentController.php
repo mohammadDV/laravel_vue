@@ -14,15 +14,7 @@ class CommentController extends Controller
 
     public function getComments()
     {
-        $comments = Comment::where("parent_id",0)->orderby("id","DESC")->with([
-            'sub_comments' => function ($parent) {
-                return $parent->with([
-                    'sub_comments' => function ($su_parent) {
-                        return $su_parent;
-                    }
-                ]);
-            }
-        ])->get();
+        $comments = $this->getCommentData();
         return response()->json($comments);
     }
 
@@ -37,19 +29,23 @@ class CommentController extends Controller
         $comments   = [];
         if ($comment){
             $status = 1;
-            $comments = Comment::where("parent_id",0)->orderby("id","DESC")->with([
-                'sub_comments' => function ($parent) {
-                    return $parent->with([
-                        'sub_comments' => function ($su_parent) {
-                            return $su_parent;
-                        }
-                    ]);
-                }
-            ])->get();
+            $comments = $this->getCommentData();
         }
         return response()->json([
             'status'    => $status,
             'comments'  => $comments
         ]);
+    }
+
+    private function getCommentData(){
+        return Comment::where("parent_id",0)->orderby("id","DESC")->with([
+            'sub_comments' => function ($parent) {
+                return $parent->with([
+                    'sub_comments' => function ($su_parent) {
+                        return $su_parent;
+                    }
+                ]);
+            }
+        ])->get();
     }
 }
